@@ -1,228 +1,157 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog - My Bulma Blog</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet'
-        href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/blog.css">
-</head>
+    <title>Ghost Style Blog - Free Bulma template</title>
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css">
+  </head>
 
-<body>
-    <!-- START NAV -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="../">
-                    <img src="../images/bulma.png" alt="Logo">
+  <section class="hero is-medium">
+    <div class="hero-head">
+      <div class="container">
+
+        
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href="../index.html" class="navbar-item is-active">
+                Home
+              </a>
+              <a href="pages/about.html" class="navbar-item">
+                About
+              </a>
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
                 </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-rss-square"></i>
+                </a>
+              </div>
             </div>
-            <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <a href="../index.html" class="navbar-item is-active">
-                        Home
-                    </a>
-                    <a href="./pages/about.html" class="navbar-item">
-                        About
-                    </a>
-                    <a href="./pages/blog2.html" class="navbar-item">
-                        Blog 2
-                    </a>
-                    <a href="./pages/landing.html" class="navbar-item">
-                        Landing example 
-                    </a>
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            Account
-                        </a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Dashboard
-                            </a>
-                            <a class="navbar-item">
-                                Profile
-                            </a>
-                            <a class="navbar-item">
-                                Settings
-                            </a>
-                            <hr class="navbar-divider">
-                            <div class="navbar-item">
-                                Logout
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- END NAV -->
-
-    <section class="hero is-info is-medium is-bold">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title has-text-white-bis is-size-1">This a sample Blog for Mr. Homer Jay Simpson<br> This is
-                    purely to show a sample layout and the text can be ignored.</h1>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="container">
-        <!-- START ARTICLE FEED -->
-        <section class="articles">
-            <div class="column is-8 is-offset-2">
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content has-text-centered">
-                                <p class="title article-title">A little about Homer's Work life</p>
-                                <div class="tags has-addons level-item">
-                                    <span class="tag is-rounded is-info">@homerj</span>
-                                    <span class="tag is-rounded">May 10, 2020</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content article-body">
-                            <p>Homer held over 188 different jobs in the first 400 episodes of The Simpsons. In most
-                                episodes, he works as the nuclear safety inspector at the Springfield Nuclear Power
-                                Plant (in Sector 7-G), a position which he has held since "Homer's Odyssey", the third
-                                episode of the series, despite the fact that he is totally unsuitable for it. </p>
-                            <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. In hac
-                                habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Accumsan lacus vel
-                                facilisis volutpat. Non sodales neque sodales ut etiam.
-                                Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.</p>
-                            <h3 class="has-text-centered">How to properly center tags in bulma?</h3>
-                            <p> At the nuclear plant, Homer is often ignored and completely forgotten by his boss Mr.
-                                Burns, and he constantly falls asleep and neglects his duties. Matt Groening has stated
-                                that he decided to have Homer work at the power plant because of the potential for Homer
-                                to wreak severe havoc.
-                            <pre>level-item</pre>
-                            Voluptat ut farmacium tellus in metus vulputate. Feugiat in fermentum posuere urna nec.
-                            Pharetra convallis posuere morbi leo urna molestie.
-                            Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta.
-                            Faucibus interdum posuere lorem ipsum.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://whatsondisneyplus.com/wp-content/uploads/2021/09/homer.png"
-                                    class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="media-content has-text-centered">
-                                <p class="title article-title">Sapien eget mi proin sed 🔱</p>
-                                <p class="subtitle is-6 article-subtitle">
-                                    <a href="#">@homerj</a> on February 17, 2020
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content article-body">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est
-                                velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim.
-                            </p>
-                            <p>
-                                Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin
-                                fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor
-                                posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros.
-                            </p>
-                            <h3 class="has-text-centered">Lectus vestibulum mattis ullamcorper velit sed ullamcorper
-                                morbi. Cras tincidunt lobortis feugiat vivamus.</h3>
-                            <p>
-                                In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis
-                                enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer
-                                feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam.
-                                Arcu non sodales neque sodales ut etiam sit amet.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
-                <!-- START PROMO BLOCK -->
-                <section class="hero is-info is-bold is-small promo-block">
-                    <div class="hero-body">
-                        <div class="container">
-                            <h1 class="title">
-                                <i class="fa fa-bell-o"></i> Nemo enim ipsam voluptatem quia.
-                            </h1>
-                            <span class="tag is-black is-medium is-rounded">
-                                Natus error sit voluptatem
-                            </span>
-                        </div>
-                    </div>
-                </section>
-                <!-- END PROMO BLOCK -->
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://whatsondisneyplus.com/wp-content/uploads/2021/09/homer.png"
-                                    class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="media-content has-text-centered">
-                                <p class="title article-title">Cras tincidunt lobortis feugiat vivamus.</p>
-                                <p class="subtitle is-6 article-subtitle">
-                                    <a href="#">@homerj</a> on October 7, 202X
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content article-body">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est
-                                velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim.
-                            </p>
-                            <p>
-                                Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin
-                                fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor
-                                posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros.
-                            </p>
-                            <h3 class="has-text-centered">“Everyone should be able to do one card trick, tell two jokes,
-                                and recite three poems, in case they are ever trapped in an elevator.”</h3>
-                            <p>
-                                In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis
-                                enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer
-                                feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam.
-                                Arcu non sodales neque sodales ut etiam sit amet.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
-            </div>
-
-        </section>
-        <!-- END ARTICLE FEED -->
+          </div>
+        </nav>
+      </div>
     </div>
-    <script async type="text/javascript" src="../js/bulma.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            //The first argument are the elements to which the plugin shall be initialized
-            //The second argument has to be at least a empty object or a object with your desired options
-            OverlayScrollbars(document.querySelectorAll("body"), {});
-        });
-    </script>
-</body>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <img src="https://cdn.emk.dev/templates/bulma-logo-light.png" width="150" height="40">
+        <h2 class="subtitle">
+          Ghost's Casper theme made with Bulma
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section class="blog-posts">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <div class="columns featured-post is-multiline">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-7 post-img ">
+                  <img src="https://cdn.emk.dev/templates/featured-image.png" alt="">
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h3 class="heading post-category">Red hat workexperience </h3>
+                    <h1 class="title post-title">Monday Blog  </h1>
+                    <p class="post-excerpt">Today I worked on creating the ssh key for my github account. I found this very hard as it was my first time using Github.we also did an ice breaker exersise </p>
+                    <br>
+                    <a href="#" class="button is-primary">Read More</a>
+                  </div>
 
+                </div>
+              </article>
+            </div>
+          </div>
+          <hr>
+          <div class="columns is-multiline">
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h3 class="heading post-category">Red Hat workexperience</h3>
+                  <h1 class="title post-title">Tuesday blog </h1>
+                  <p class="post-excerpt">Today I worked how to code on micro:bit and we did group woorks ob assembling a rm potato head it was like assembling an app where one persion gets the peices for the the potato head we chose hero our hero was spider man and in the evening we set up this blog </p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h3 class="heading post-category">Red Hat workexperience</h3>
+                  <h1 class="title post-title">Wednesday blog </h1>
+                  <p class="post-excerpt">Today we went into the confrence room and got a talk about Ai   </p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
 </html>
